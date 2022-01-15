@@ -139,6 +139,10 @@ learnr::run_tutorial("00-intro", package = "qsslearnr")
 
 If you either see the Tutorial tab or the code above opens a window with a tutorial, then you are all set and ready to go.
 
+# Slack
+
+Gov 50 will also use Slack for course communications. I will share a link with you to sign-up for the course Slack. If you've never used Slack before, the link will ask you to download the program.
+
 **Congratulations**!! If you've gotten to this point, you are all set with the materials for this course. You are going to learn a lot!
 
 ::: {.tocify-extend-page data-unique="tocify-extend-page" style="height: 0;"}
