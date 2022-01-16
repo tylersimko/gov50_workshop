@@ -51,7 +51,7 @@ If you have a Windows computer, first click on **base** and then *Download R 4.1
 knitr::include_graphics("../figs/l0_windows_all.png")
 ```
 
-Then, click on the files you downloaded and follow the instructional prompts.
+Then, click on the files you downloaded and follow the instructional prompts to install.
 
 ------------------------------------------------------------------------
 
@@ -77,6 +77,18 @@ Click on the downloaded file and follow the instructions to install RStudio.
 knitr::include_graphics("../figs/l0_rstudio.png")
 ```
 
+------------------------------------------------------------------------
+
+# Slack
+
+Gov 50 will also use Slack for course communications. You will use Slack throughout the semester for course announcements, asking questions, and troubleshooting. One nice part about Slack is that you can see what others post, so if someone asks a question everyone can benefit. If you need, you can also direct message course staff to ask private questions. I will share a link with you to sign-up for the course Slack. If you've never used Slack before, the link will ask you to download the program and create an account with your Harvard email.
+
+```{r slack, echo=FALSE, fig.align="center", fig.cap="***Welcome to Slack.***"}
+knitr::include_graphics("../figs/l0_slack.jpeg")
+```
+
+------------------------------------------------------------------------
+
 # Using RStudio
 
 When you open the RStudio program for the first time, it will look something like this:
@@ -101,9 +113,9 @@ Let's try to evaluate some code. In the `>` part of the console, try typing in `
 knitr::include_graphics("../figs/l0_add.png")
 ```
 
-Awesome! If that code evaluated to `9`, your installation is working.
+Awesome! If that code evaluated to `9`, your installation is working. The console is only a temporary place for code. We'll soon talk about ways to save and store your code. 
 
-Congratulations! You've installed all of the necessary materials for this course.
+------------------------------------------------------------------------
 
 # Packages
 
@@ -139,11 +151,19 @@ learnr::run_tutorial("00-intro", package = "qsslearnr")
 
 If you either see the Tutorial tab or the code above opens a window with a tutorial, then you are all set and ready to go.
 
-# Slack
+Congratulations! You've installed all of the necessary materials for this course.
 
-Gov 50 will also use Slack for course communications. I will share a link with you to sign-up for the course Slack. If you've never used Slack before, the link will ask you to download the program.
+------------------------------------------------------------------------
 
-**Congratulations**!! If you've gotten to this point, you are all set with the materials for this course. You are going to learn a lot!
+# Slack Tips and Tricks
+
+Slack uses a series of "channels," basically different places to have discussions. You can also message members of the course staff directly, though in general most questions should be asked publicly so other students can benefit.
+
+One nice reason to use Slack is that you can use it to share code! You can type regular text in the message box (and use formatting tools like bold and lists), but if you click on the "code block" button you can also paste code in directly:
+
+```{r slack-code}
+knitr::include_graphics("../figs/l0_code_slack.png")
+```
 
 ::: {.tocify-extend-page data-unique="tocify-extend-page" style="height: 0;"}
 :::
